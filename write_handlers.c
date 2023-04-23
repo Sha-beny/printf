@@ -5,16 +5,16 @@
  * handle_write_char - Prints a string
  * @c: char types.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags.
- * @width: get width.
- * @precision: precision specifier
- * @size: Size specifier
+ * @flags:  Calculates all active flags.
+ * @width: get the width.
+ * @precision: precision of the specifier
+ * @size: Size of specifier
  *
  * Return: Number of chars printed.
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
-{ /* char is stored at left and paddind at buffer's right */
+{ /* char is stored at the left and paddind at buffer's right */
 	int i = 0;
 	char padd = ' ';
 
@@ -47,7 +47,7 @@ int handle_write_char(char c, char buffer[],
 /************************* WRITE NUMBER *************************/
 /**
  * write_number - Prints a string
- * @is_negative: Lista of arguments
+ * @is_negative: Lista of all arguments
  * @ind: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
