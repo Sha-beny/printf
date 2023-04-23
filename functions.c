@@ -22,10 +22,10 @@ int print_char(va_list types, char buffer[],
 /************************* PRINT A STRING *************************/
 /**
  * print_string - Prints a string
- * @types: List a of arguments
+ * @types: List of all thearguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
+ * @flags:  Calculates all active flags
+ * @width: get the width.
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
