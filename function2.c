@@ -6,7 +6,7 @@
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates all active flags
- * @width: get width
+ * @width: get the width
  * @precision: Precision specification
  * @size: Size of the specifier
  * Return: Number of chars printed.
